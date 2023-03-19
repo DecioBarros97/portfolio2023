@@ -45,7 +45,7 @@ window.onscroll = () => {
 
 //efeito de aparecer nos títulos das sections.
 
-ScrollReveal({ 
+ScrollReveal({
     //reset: true,
     distance: '80px',
     duration: 2000,
@@ -53,14 +53,16 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 
-'bottom' });
+ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', {
+    origin:
+        'bottom'
+});
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 
 /* ================== Typed JS ==================*/
-const typed = new Typed ('.multiple-text', {
+const typed = new Typed('.multiple-text', {
     strings: ['Desenvolvedor Front-end', 'Técnico em informática', 'Design'],
     typeSpeed: 100,
     backSpeed: 50,

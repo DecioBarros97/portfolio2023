@@ -83,29 +83,31 @@ section {
     justify-content: center;
     align-items: center;
 }
+
 .home-contato {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(146,60,175);
-    background: linear-gradient(119deg, rgba(146,60,175,1) 0%, rgb(31, 91, 131) 45%, rgb(0, 14, 17) 100%);
+    background: rgb(146, 60, 175);
+    background: linear-gradient(119deg, rgba(146, 60, 175, 1) 0%, rgb(31, 91, 131) 45%, rgb(0, 14, 17) 100%);
 }
-.home-img img{
+
+.home-img img {
     width: 30vw;
     margin: 5rem;
     animation: floatImage 4s ease-in-out infinite;
 }
 
 @keyframes floatImage {
-    0%{
+    0% {
         transform: translateY(0);
     }
-    
-    50%{
+
+    50% {
         transform: translateY(-2.4rem);
     }
-    
-    100%{
+
+    100% {
         transform: translateY(0);
     }
 }
@@ -215,7 +217,7 @@ span {
 }
 
 .services-container {
-    display:inline-flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -536,6 +538,7 @@ span {
     }
 
 }
+
 @media (max-width: 365px) {
 
     .home-img img {
