@@ -63,7 +63,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /* ================== Typed JS ==================*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Desenvolvedor Front-end', 'Técnico em informática', 'Design'],
+    strings: ['Desenvolvedor Front-end', 'Técnico em informática', 'Designer'],
     typeSpeed: 100,
     backSpeed: 50,
     backDelay: 4000,
