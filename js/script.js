@@ -71,7 +71,7 @@ const typed = new Typed('.multiple-text', {
 });
 
 
-/* messagem botao dos projetos não prontos */
+/* menssagem botao dos projetos não prontos */
 
 function cadastro() {
     alert("Esse projeto está em desenvolvimento...");
